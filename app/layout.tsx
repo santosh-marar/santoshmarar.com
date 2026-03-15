@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, DM_Sans } from "next/font/google";
+import {
+  JetBrains_Mono,
+  Plus_Jakarta_Sans,
+  Silkscreen,
+} from "next/font/google";
 import "./globals.css";
 
-const dmSans = DM_Sans({subsets:['latin'],variable:'--font-sans'});
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const plusJakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetBrainsMono = JetBrains_Mono({
+  variable: "--font-mono",
   subsets: ["latin"],
+});
+
+const silkscreen = Silkscreen({
+  variable: "--font-pixel",
+  subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +33,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={dmSans.variable}>
+    <html
+      lang="en"
+      className={`${plusJakartaSans.variable} ${jetBrainsMono.variable} ${silkscreen.variable}`}
+    >
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${plusJakartaSans.variable} ${jetBrainsMono.variable} ${silkscreen.variable} antialiased`}
       >
         {children}
       </body>
