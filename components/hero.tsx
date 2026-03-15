@@ -1,17 +1,24 @@
 import Link from "next/link";
+import ThemeSwitcher from "./theme-switcher";
 
 const HeroSection = () => {
     return (
       <div className="max-w-4xl pt-16 mx-auto px-4">
-        <p className="font-mono text-muted-foreground">hello world its,</p>
-        <p>
-          <span className="font-pixel text-3xl font-bold">Santosh</span>
-          <span className="text-2xl mx-1 font-bold">/</span>
+        <div className="flex justify-between items-center">
+          <div>
+            <p className="font-mono text-muted-foreground">hello world its,</p>
+            <p>
+              <span className="font-pixel text-3xl font-bold">Santosh</span>
+              <span className="text-2xl mx-1 font-bold">/</span>
 
-          <Link href="https://x.com/santosh_marar" target="_blank">
-            @santosh_marar
-          </Link>
-        </p>
+              <Link href="https://x.com/santosh_marar" target="_blank">
+                @santosh_marar
+              </Link>
+            </p>
+          </div>
+
+          <ThemeSwitcher />
+        </div>
 
         <div className="text-muted-foreground pt-8">
           <p className="">

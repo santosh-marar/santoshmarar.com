@@ -5,6 +5,7 @@ import {
   Silkscreen,
 } from "next/font/google";
 import "./globals.css";
+import { ThemeProviders } from "@/components/theme-provider";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   variable: "--font-sans",
@@ -40,7 +41,7 @@ export default function RootLayout({
       <body
         className={`${plusJakartaSans.variable} ${jetBrainsMono.variable} ${silkscreen.variable} antialiased`}
       >
-        {children}
+        <ThemeProviders>{children}</ThemeProviders>
       </body>
     </html>
   );
