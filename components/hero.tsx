@@ -27,8 +27,14 @@ const HeroSection = () => {
               self-taught full-stack engineer (MERN)
             </span>{" "}
             who loves building things that <br />
-            actually work. I take ideas from design to deployment—whether it's{" "}
-            <br /> AI-powered tools or full-scale web apps with my skills
+            actually work. I take ideas from design to deployment-whether it's{" "}
+            <br /> AI-powered tools or full-scale web apps with{" "}
+            <Link
+              href="/skills"
+              className="font-semibold text-primary border-b"
+            >
+              my skills
+            </Link>
           </p>
 
           <div className="mt-4">
