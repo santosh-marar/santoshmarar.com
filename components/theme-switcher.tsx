@@ -12,7 +12,11 @@ function ThemeSwitcher() {
 
   return (
     <div onClick={() => toggleTheme()}>
-      {theme === "dark" ? <SunIcon className="size-5"/> : <MoonIcon className="size-5"/>}
+      {theme === "dark" ? (
+        <SunIcon weight="duotone" className="size-5" />
+      ) : (
+        <MoonIcon weight="duotone" className="size-5" />
+      )}
     </div>
   );
 }
