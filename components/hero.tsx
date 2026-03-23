@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ThemeSwitcher from "./theme-switcher";
 import ActionButton from "./action-button";
+import Test from "./try-com";
 
 const HeroSection = () => {
     return (
@@ -64,6 +65,7 @@ const HeroSection = () => {
           </div>
         </div>
         <ActionButton/>
+        {/* <Test/> */}
       </div>
     );
 }

@@ -7,7 +7,7 @@ import Link from "next/link";
 const ActionButton = () => {
     return (
       <div>
-        <div className="flex items-center mt-6  ">
+        <div className="flex items-center mt-6">
           <div className="">
             <span className="relative flex items-center justify-center">
               <span className="absolute inline-flex size-3 animate-ping rounded-full bg-green-600 opacity-50"></span>
@@ -19,7 +19,7 @@ const ActionButton = () => {
           </p>
         </div>
         <div className="flex items-center mt-2 font-semibold">
-          <Button className="hover:primary/80">
+          <Button size={"lg"} className="shadow-[0_35px_10px_rgba(0,0,0,0.00),0_23px_9px_rgba(0,0,0,0.01),0_13px_8px_rgba(0,0,0,0.03),0_6px_6px_rgba(0,0,0,0.05),0_1px_3px_rgba(0,0,0,0.06)]">
             <Link
               href={"https://cal.com/santosh-marar/15-min-meeting"}
               className="flex items-center gap-1 justify-center font-semibold text-sm"
@@ -31,7 +31,11 @@ const ActionButton = () => {
 
           <span className="mx-2 font-normal text-muted-foreground">or</span>
 
-          <Button variant={"outline"}>
+          <Button
+            variant={"outline"}
+            size={"lg"}
+            className="shadow-[0_35px_10px_rgba(0,0,0,0.00),0_23px_9px_rgba(0,0,0,0.01),0_13px_8px_rgba(0,0,0,0.03),0_6px_6px_rgba(0,0,0,0.05),0_1px_3px_rgba(0,0,0,0.06)]"
+          >
             <Link
               href={"https://x.com/santosh_marar"}
               className="flex items-center gap-1 justify-center font-semibold text-sm"
