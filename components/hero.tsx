@@ -5,18 +5,14 @@ import Test from "./try-com";
 
 const HeroSection = () => {
     return (
-      <div className="max-w-4xl pt-16 mx-auto px-4">
+      <div className="max-w-4xl pt-16 mx-auto px-4 relative tracking-[0.25px]">
         <div className="flex justify-between items-center">
           <div>
-            <p className="font-mono text-muted-foreground">hello world its,</p>
+            <p className="font-mono text-xs text-zinc-300 dark:text-secondary">hello world its,</p>
             <p>
-              <span className="font-pixel text-3xl font-bold">Santosh</span>
-              <span className="text-2xl mx-1 font-bold">/</span>
-
-              <Link href="https://x.com/santosh_marar" target="_blank">
-                @santosh_marar
-              </Link>
+              <span className="text-2xl font-bold">Santosh Marar</span>
             </p>
+            <p className="text-sm font-medium tracking-[0.25px] text-muted-foreground">Design Engineer</p>
           </div>
 
           <ThemeSwitcher />
@@ -64,7 +60,7 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        <ActionButton/>
+        <ActionButton />
         {/* <Test/> */}
       </div>
     );
