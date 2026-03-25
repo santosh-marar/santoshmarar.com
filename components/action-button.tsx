@@ -1,6 +1,6 @@
 "use client"
 
-import { PhoneCallIcon, XIcon, XLogoIcon } from "@phosphor-icons/react";
+import { PhoneCallIcon, XLogoIcon } from "@phosphor-icons/react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
@@ -25,7 +25,7 @@ const ActionButton = () => {
               className="flex items-center gap-1 justify-center font-semibold text-sm"
             >
               {" "}
-              <PhoneCallIcon weight="duotone" className="size-4" /> Book a call
+              <PhoneCallIcon weight="bold" className="size-4" /> Book a call
             </Link>
           </Button>
 
@@ -41,7 +41,7 @@ const ActionButton = () => {
               className="flex items-center gap-1 justify-center font-semibold text-sm"
             >
               {" "}
-              <XLogoIcon weight="duotone" className="size-4" /> DM
+              <XLogoIcon weight="bold" className="size-4" /> DM
             </Link>
           </Button>
         </div>
