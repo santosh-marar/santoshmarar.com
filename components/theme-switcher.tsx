@@ -13,10 +13,10 @@ function ThemeSwitcher() {
 
   return (
     <Button
-      variant="outline"
+      variant="ghost"
       size="icon"
       onClick={toggleTheme}
-      className="relative shadow-[0_35px_10px_rgba(0,0,0,0.00),0_23px_9px_rgba(0,0,0,0.01),0_13px_8px_rgba(0,0,0,0.03),0_6px_6px_rgba(0,0,0,0.05),0_1px_3px_rgba(0,0,0,0.06)]"
+      // className="relative shadow-[0_35px_10px_rgba(0,0,0,0.00),0_23px_9px_rgba(0,0,0,0.01),0_13px_8px_rgba(0,0,0,0.03),0_6px_6px_rgba(0,0,0,0.05),0_1px_3px_rgba(0,0,0,0.06)]"
     >
       <SunIcon
         weight="bold"
