@@ -20,11 +20,11 @@ function ThemeSwitcher() {
     >
       <SunIcon
         weight="bold"
-        className="absolute size-4 scale-100 rotate-0 dark:scale-0 dark:rotate-45 transition-all duration-500"
+        className="absolute size-4 scale-100 rotate-0 dark:scale-0 dark:rotate-45 transition-all duration-500 text-muted-foreground"
       />
       <MoonIcon
         weight="bold"
-        className="absolute size-4 scale-0 rotate-45 dark:scale-100 dark:rotate-0 transition-all duration-500"
+        className="absolute size-4 scale-0 rotate-45 dark:scale-100 dark:rotate-0 transition-all duration-500 text-muted-foreground"
       />
     </Button>
   );

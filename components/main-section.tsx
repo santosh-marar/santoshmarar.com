@@ -1,8 +1,9 @@
 import ThemeSwitcher from "./theme-switcher";
+import SocialSection from "./soical-section";
 
 const HeroSection = () => {
   return (
-    <div className="max-w-2xl pt-12 mx-auto px-4 ">
+    <main className="max-w-2xl pt-12 mx-auto px-4 ">
       <div className="flex justify-between items-center">
         <div>
           <p className="font-mono text-xs text-muted-foreground">
@@ -20,8 +21,7 @@ const HeroSection = () => {
 
         <ThemeSwitcher />
       </div>
-
-      <div className="text-muted-foreground pt-8 font-medium">
+      <div className="text-muted-foreground pt-6 font-medium">
         <p className="">
           I'm a{" "}
           <span className="font-semibold text-primary border-b border-dotted">
@@ -32,8 +32,14 @@ const HeroSection = () => {
           imagination to real-world users, from simple ideas to complex
           platforms.
         </p>
+
+        {/*<p className="pt-1">
+          Based in Nepal, I enjoy collaborating with teams and working across
+          different timezones to turn ideas into production-ready products.
+        </p>*/}
       </div>
-    </div>
+      <SocialSection />
+    </main>
   );
 };
 
