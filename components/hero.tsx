@@ -1,47 +1,39 @@
 import Link from "next/link";
 import ThemeSwitcher from "./theme-switcher";
-import ActionButton from "./action-button";
-import Test from "./try-com";
 
 const HeroSection = () => {
   return (
-    <div className="max-w-4xl pt-16 mx-auto px-4 relative tracking-[0.25px]">
+    <div className="max-w-2xl pt-12 mx-auto px-4 ">
       <div className="flex justify-between items-center">
         <div>
-          <p className="font-mono text-xs text-zinc-300 dark:text-secondary">
+          <p className="font-mono text-xs text-muted-foreground">
             hello world its,
           </p>
           <p>
             <span className="text-2xl font-bold">Santosh Marar</span>
-          </p>
-          <p className="text-sm font-medium tracking-[0.25px] text-muted-foreground">
-            Full Stack Engineer
+            {/*<span className="text-2xl mx-1 font-bold">/</span>
+
+              <Link href="https://x.com/santosh_marar" target="_blank">
+                @santosh_marar
+              </Link>*/}
           </p>
         </div>
 
         <ThemeSwitcher />
       </div>
 
-      <div className="text-muted-foreground pt-8 tracking-[0.25px]">
-        <p>
-          I’m a self-taught developers who builds real products that people can
-          actually use.
-          <br />
-          Not just ideas, I take things from zero to shipped.
-          <br />
-          Currently building{" "}
-          <Link
-            href="https://cloud.enops.dev/"
-            target="_blank"
-            className="font-semibold text-primary"
-          >
-            enops.dev
-          </Link>
-          , exploring better ways to design databases.
+      <div className="text-muted-foreground pt-8 font-medium">
+        <p className="">
+          I'm a{" "}
+          <span className="font-semibold text-primary border-b border-dotted">
+            self-taught full-stack engineer
+          </span>
+          ,{"   "}
+          who builds products that solve real-world problems. I take them from
+          imagination to real-world users, from simple ideas to complex
+          platforms.
         </p>
       </div>
-      <ActionButton />
-      {/* <Test/> */}
     </div>
   );
 };

@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import {
   JetBrains_Mono,
-  Plus_Jakarta_Sans,
-  Silkscreen, Inter, Roboto } from "next/font/google";
+  Plus_Jakarta_Sans
+} from "next/font/google";
 import "./globals.css";
 import { ThemeProviders } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
-const robotoHeading = Roboto({subsets:['latin'],variable:'--font-heading'});
-
-const inter = Inter({subsets:['latin'],variable:'--font-sans'});
+const plus_jakarta_sans = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-sans' })
 
 const jetBrainsMono = JetBrains_Mono({
   variable: "--font-mono",
@@ -29,10 +27,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn(jetBrainsMono.variable, "font-sans", inter.variable, robotoHeading.variable)}
+      className={cn(jetBrainsMono.variable, "font-sans", plus_jakarta_sans.variable)}
     >
       <body
-        className={`${inter.variable} ${jetBrainsMono.variable} antialiased`}
+        className={`${plus_jakarta_sans.variable} ${jetBrainsMono.variable} antialiased`}
       >
         <ThemeProviders>{children}</ThemeProviders>
       </body>

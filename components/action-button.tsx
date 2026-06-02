@@ -1,5 +1,3 @@
-"use client"
-
 import { PhoneCallIcon, XLogoIcon } from "@phosphor-icons/react";
 import { Button } from "./ui/button";
 import Link from "next/link";
