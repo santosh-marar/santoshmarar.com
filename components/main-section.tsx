@@ -1,9 +1,8 @@
 import ThemeSwitcher from "./theme-switcher";
-import SocialSection from "./soical-section";
 
 const HeroSection = () => {
   return (
-    <main className="max-w-2xl pt-12 mx-auto px-4 ">
+    <div className="px-2">
       <div className="flex justify-between items-center">
         <div>
           <p className="font-mono text-xs text-muted-foreground">
@@ -38,8 +37,7 @@ const HeroSection = () => {
           different timezones to turn ideas into production-ready products.
         </p>*/}
       </div>
-      <SocialSection />
-    </main>
+    </div>
   );
 };
 

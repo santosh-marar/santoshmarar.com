@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const SocialSection = () => {
   return(
-  <div className="pt-2 font-medium text-muted-foreground">
+  <div className="pt-2 font-medium text-muted-foreground px-2">
     <p>
       {" "}
       You can find me on{" "}
@@ -20,7 +20,7 @@ const SocialSection = () => {
         </Link>
       </span>
       , or schedule a meetup on{" "}
-      <span className="text-primary font-semibold border-b">
+      <span className="text-primary font-semibold border-b border-dotted">
         <Link href="https://cal.com/santosh-marar/15-min-meeting">Cal.com</Link>
       </span>
     </p>

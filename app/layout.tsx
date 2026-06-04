@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import {
-  JetBrains_Mono,
-  Plus_Jakarta_Sans
-} from "next/font/google";
+import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProviders } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
 
-const plus_jakarta_sans = Plus_Jakarta_Sans({ subsets: ['latin'], variable: '--font-sans' })
+const plus_jakarta_sans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 const jetBrainsMono = JetBrains_Mono({
   variable: "--font-mono",
@@ -27,7 +27,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn(jetBrainsMono.variable, "font-sans", plus_jakarta_sans.variable)}
+      suppressHydrationWarning
+      className={cn(
+        jetBrainsMono.variable,
+        "font-sans",
+        "overflow-y-scroll",
+        plus_jakarta_sans.variable,
+      )}
     >
       <body
         className={`${plus_jakarta_sans.variable} ${jetBrainsMono.variable} antialiased`}
