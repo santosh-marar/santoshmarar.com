@@ -1,5 +1,4 @@
 "use client";
-import { ArrowRightIcon } from "@phosphor-icons/react";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -34,7 +33,7 @@ const ExperienceSection = () => {
           type="single"
           collapsible
           defaultValue="item-1"
-          className="border-none hover:bg-secondary mt-0.5"
+          className="border-none hover:bg-secondary mt-1"
         >
           <AccordionItem value="item-1">
             <AccordionTrigger className="border-none hover:no-underline">
@@ -75,7 +74,7 @@ const ExperienceSection = () => {
               </div>
             </AccordionTrigger>
             <AccordionContent className="text-base font-normal">
-              <div className="prose prose-zinc leading-6 dark:prose-invert max-w-none [&_ul]:my-0 [&_li]:my-0.5 [&_li]:text-muted-foreground [&_ul]:text-muted-foreground">
+              <div className="prose prose-zinc dark:prose-invert max-w-none [&_ul]:my-0 [&_li]:my-0.5 [&_li]:text-muted-foreground [&_ul]:text-muted-foreground">
                 <ul>
                   <li>
                     Build a marketplace where property buyers and sellers can
@@ -105,7 +104,6 @@ const ExperienceSection = () => {
                 <Badge variant={"outline"} className="px-4 py-3 text-xs font-medium text-muted-foreground rounded-md bg-text-primary ring-1 ring-line ring-offset-1 ring-offset-background">Next.js</Badge>
                 <Badge variant={"outline"} className="px-4 py-3 text-xs font-medium text-muted-foreground rounded-md bg-text-primary ring-1 ring-line ring-offset-1 ring-offset-background">MongoDB</Badge>
                 <Badge variant={"outline"} className="px-4 py-3 text-xs font-medium text-muted-foreground rounded-md bg-text-primary ring-1 ring-line ring-offset-1 ring-offset-background">Better-Auth</Badge>
-
               </div>
             </AccordionContent>
           </AccordionItem>
