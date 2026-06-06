@@ -11,9 +11,9 @@ import { Badge } from "./ui/badge";
 
 const ExperienceSection = () => {
   return (
-    <div className="pt-6 font-medium text-muted-foreground">
+    <div className="mt-6 font-medium text-muted-foreground">
       <div>
-        <h3 className="px-2 mb-2 text-xl font-bold text-primary">
+        <h3 className="px-2 mb-2 text-lg font-semibold text-primary">
           Work I've Delivered
         </h3>
 
@@ -23,7 +23,7 @@ const ExperienceSection = () => {
             href="https://bhoomitraproperties.com.np/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg cursor-pointer text-primary border-b border-transparent hover:border-b-muted-foreground transition-colors duration-200"
+            className="text-lg text-semibold cursor-pointer text-primary border-b border-transparent hover:border-b-muted-foreground transition-colors duration-200"
           >
             Bhoo-Mitra Properties
           </Link>
