@@ -23,14 +23,14 @@ const ExperienceSection = () => {
             href="https://bhoomitraproperties.com.np/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg text-semibold cursor-pointer text-primary border-b border-transparent hover:border-b-muted-foreground transition-colors duration-200"
+            className="text-base text-semibold cursor-pointer text-primary border-b border-transparent hover:border-b-muted-foreground transition-colors duration-200"
           >
             Bhoo-Mitra Properties
           </Link>
         </div>
 
         <Accordion
-          className="border-none hover:bg-secondary mt-1"
+          className="border-none hover:bg-secondary "
         >
           <AccordionItem value="item-1">
             <AccordionTrigger className="border-none hover:no-underline">

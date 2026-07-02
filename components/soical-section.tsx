@@ -6,7 +6,7 @@ const SocialSection = () => {
       <p>
         {" "}
         You can find me on{" "}
-        <span className="font-semibold border-b">
+        <span className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary">
           <Link
             href="https://x.com/santosh_marar"
             target="_blank"
@@ -16,7 +16,7 @@ const SocialSection = () => {
           </Link>
         </span>
         ,{" "}
-        <span className="font-semibold border-b">
+        <span className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary">
           <Link
             href="https://github.com/santosh-marar"
             target="_blank"
@@ -26,7 +26,7 @@ const SocialSection = () => {
           </Link>
         </span>
         ,{" "}
-        <span className="font-semibold border-b">
+        <span className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary">
           <Link
             href="https://www.linkedin.com/in/santosh-kumar-marar-98536319b/"
             target="_blank"

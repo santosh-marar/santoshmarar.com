@@ -6,13 +6,13 @@ const ProjectSection = () => {
   return (
     <div className="mt-6 font-medium text-muted-foreground ">
       <div>
-        <h3 className="px-2 text-lg font-semibold text-primary mb-1">
+        <h3 className="px-2 text-lg font-semibold text-primary mb-2">
           Projects I've Built
         </h3>
 
         <Link
           href="#"
-          className="group flex items-center justify-between rounded-sm px-2 pb-4 pt-1 hover:bg-secondary"
+          className="group flex items-center justify-between rounded-sm px-2 pb-4 hover:bg-secondary"
         >
           <div className="flex items-center gap-4">
             {/*<Image src="/plogo.png" alt="company's logo" width={24} height={24} />*/}
@@ -99,7 +99,7 @@ const ProjectSection = () => {
             href="https://github.com/santosh-marar"
             target="_blank"
             rel="noopener noreferrer"
-            className=" font-semibold hover:border-b"
+            className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary"
           >
           GitHub
           </a>
