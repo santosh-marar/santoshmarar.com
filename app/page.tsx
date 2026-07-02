@@ -2,6 +2,7 @@ import ExperienceSection from "@/components/experience-section";
 import SocialSection from "@/components/soical-section";
 import HeroSection from "@/components/main-section";
 import ProjectSection from "@/components/project-section";
+import BlogSection from "@/components/blog-section";
 // import Navbar from "@/components/navbar-section";
 
 export default function Page() {
@@ -12,6 +13,7 @@ export default function Page() {
       <SocialSection />
       <ExperienceSection />
       <ProjectSection />
+      <BlogSection />
     </main>
   );
 }
