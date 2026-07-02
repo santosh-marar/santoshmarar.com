@@ -5,7 +5,9 @@ const FooterSection = () => {
         Designed & Developed by{" "}
         <a
           href="https://santoshmarar.com"
-          className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
         >
           Santosh Marar
         </a>
@@ -15,7 +17,9 @@ const FooterSection = () => {
         Code available on{" "}
         <a
           href="https://github.com/santosh-marar/santoshmarar.com"
-          className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link"
         >
           GitHub
         </a>

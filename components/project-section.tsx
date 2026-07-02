@@ -94,14 +94,14 @@ const ProjectSection = () => {
         {/*<hr className="my-1" />*/}
 
         <p className="mt-1 px-2">
-          Explore more projects on { }
+          Explore more projects on {}
           <a
             href="https://github.com/santosh-marar"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold border-b border-transparent transition-all duration-200 hover:text-primary hover:border-primary"
+            className="link"
           >
-          GitHub
+            GitHub
           </a>
         </p>
       </div>

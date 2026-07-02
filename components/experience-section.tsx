@@ -70,7 +70,7 @@ const ExperienceSection = () => {
                 </div>
               </div>
             </AccordionTrigger>
-            <AccordionContent className="text-base font-normal">
+            <AccordionContent className="font-medium">
               <div className="prose prose-zinc dark:prose-invert max-w-none [&_ul]:my-0 [&_li]:my-0.5 [&_li]:text-muted-foreground [&_ul]:text-muted-foreground">
                 <ul>
                   <li>
