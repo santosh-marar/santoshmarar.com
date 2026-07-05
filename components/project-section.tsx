@@ -11,7 +11,7 @@ const ProjectSection = () => {
         </h3>
 
         <Link
-          href="#"
+          href="/projects/enops.dev"
           className="group flex items-center justify-between rounded-sm px-2 pb-4 hover:bg-secondary"
         >
           <div className="flex items-center gap-4">
