@@ -3,6 +3,7 @@ import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProviders } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
 
 const plus_jakarta_sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({
         className={`${plus_jakarta_sans.variable} ${jetBrainsMono.variable} antialiased`}
       >
         <ThemeProviders>{children}</ThemeProviders>
+      <Analytics />
       </body>
     </html>
   );
