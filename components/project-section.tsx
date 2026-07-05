@@ -53,7 +53,7 @@ const ProjectSection = () => {
         <hr className="my-1" />
 
         <Link
-          href="#"
+          href="/projects/vendora"
           className="group flex items-center justify-between rounded-sm px-2 pb-4 pt-1 hover:bg-secondary"
         >
           <div className="flex items-center gap-4">
