@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export default function Page() {
+export default function Enops() {
   return (
     <div>
       {/*Project */}
@@ -33,7 +33,7 @@ export default function Page() {
 
             <Button variant="secondary" size="default">
               <a
-                href="https://enops.dev"
+                href="https://github.com/santosh-marar/enops-community"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -76,7 +76,7 @@ export default function Page() {
           <div className="mt-4">
             <h4 className="text-base font-semibold pt-2">Tech Stack</h4>
             <p className="text-muted-foreground text-base font-medium">
-              Typescript, Nextjs, Bun, Hono, PotgresSQL, Better-Auth, Dodo
+              Typescript, Nextjs, Bun, Hono, PotgresSQL, Schdn UI, Tailwind CSS, Better-Auth, Dodo
               Payment, Vercel AI SDK, Vercel AI Gateway
             </p>
           </div>
