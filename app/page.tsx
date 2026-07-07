@@ -7,7 +7,7 @@ import FooterSection from "@/components/footer-section";
 
 export default function Page() {
   return (
-    <main className="grid min-h-screen max-w-2xl grid-rows-[1fr_auto] mx-auto pt-4 md:pt-8">
+    <main className="grid min-h-screen max-w-2xl grid-rows-[1fr_auto] mx-auto pt-6 md:pt-8">
       <div>
         <HeroSection />
         <SocialSection />

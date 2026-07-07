@@ -7,7 +7,7 @@ export default function ProjectsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="max-w-2xl mx-auto pt-4 md:pt-8">
+    <div className="max-w-2xl mx-auto pt-6 md:pt-8">
       <ProjectHeader />
       <main>{children}</main>
       <FooterSection/>

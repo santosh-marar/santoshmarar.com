@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const ProjectHeader = () => {
   return (
-    <header>
+    <header className="px-2">
       <div className="flex justify-between items-center">
         <Button variant="outline" className="group">
           <Link href={"/"}>

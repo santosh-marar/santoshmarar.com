@@ -96,7 +96,7 @@ const ExperienceSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className="ml-8 pt-3 space-x-3">
+              <div className="ml-8 flex flex-wrap gap-3 pt-3">
                 <Badge variant={"outline"} className="px-4 py-3 text-xs font-medium text-muted-foreground rounded-md bg-text-primary ring-1 ring-line ring-offset-1 ring-offset-background">Typescript</Badge>
                 <Badge variant={"outline"} className="px-4 py-3 text-xs font-medium text-muted-foreground rounded-md bg-text-primary ring-1 ring-line ring-offset-1 ring-offset-background">Next.js</Badge>
                 <Badge variant={"outline"} className="px-4 py-3 text-xs font-medium text-muted-foreground rounded-md bg-text-primary ring-1 ring-line ring-offset-1 ring-offset-background">MongoDB</Badge>

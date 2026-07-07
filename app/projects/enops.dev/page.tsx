@@ -4,9 +4,7 @@ import Image from "next/image";
 
 export default function Enops() {
   return (
-    <div>
-      {/*Project */}
-      <div className="mt-4">
+      <div className="mt-4 px-2">
         <h3 className="text-xl font-semibold">
           <a href="https://enops.dev" target="_blank" rel="noopener noreferrer">
             Enops.dev
@@ -96,6 +94,5 @@ export default function Enops() {
           </div>
         </div>
       </div>
-    </div>
   );
 }

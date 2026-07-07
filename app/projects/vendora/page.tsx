@@ -4,9 +4,7 @@ import Image from "next/image";
 
 export default function Vendora() {
   return (
-    <div>
-      {/*Project */}
-      <div className="mt-4">
+      <div className="mt-4 px-2">
         <h3 className="text-xl font-semibold">
           <a
             href="https://vendora-sage.vercel.app/"
@@ -84,6 +82,5 @@ export default function Vendora() {
           </div>
         </div>
       </div>
-    </div>
   );
 }

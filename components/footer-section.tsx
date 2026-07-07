@@ -1,6 +1,6 @@
 const FooterSection = () => {
   return (
-    <footer className="mt-2 flex w-full flex-col items-center justify-between gap-2 px-2 py-4 font-medium text-muted-foreground md:flex-row md:items-center md:justify-between">
+    <footer className="mt-2 flex w-full flex-col items-start justify-between md:gap-2 px-2 py-4 font-medium text-muted-foreground md:flex-row md:items-center md:justify-between">
       <p>
         Designed & Developed by{" "}
         <a
