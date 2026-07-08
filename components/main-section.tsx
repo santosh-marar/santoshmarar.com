@@ -1,4 +1,5 @@
 import ThemeSwitcher from "./theme-switcher";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -21,15 +22,21 @@ const HeroSection = () => {
         <ThemeSwitcher />
       </div>
       <div className="text-muted-foreground pt-6 font-medium">
-        <p className="">
+        <p>
           I'm a{" "}
           <span className="font-semibold text-primary border-b border-dotted">
             self-taught full-stack engineer
-          </span>
-          ,{"   "}
-          who builds products that solve real-world problems. I take them from
-          imagination to real-world users, from simple ideas to complex
-          platforms.
+          </span>{" "}
+          who builds software that solves real problems. I take products from
+          imagination to real-world users, turning simple ideas into reliable
+          platforms with{" "}
+          <Link
+            href="/skills"
+            className="font-semibold text-primary underline decoration-transparent underline-offset-4 decoration-2 transition-all duration-200 hover:decoration-primary"
+          >
+            my toolkit
+          </Link>{" "}
+          and expertise.
         </p>
 
         {/*<p className="pt-1">

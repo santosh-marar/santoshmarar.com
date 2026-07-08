@@ -36,7 +36,7 @@ const SocialSection = () => {
           </Link>
         </span>
         , or schedule a meetup on{" "}
-        <span className="text-primary font-semibold border-b border-dotted">
+        <span className="font-semibold text-primary underline decoration-transparent underline-offset-4 decoration-2 transition-all duration-200 hover:decoration-primary">
           <Link
             href="https://cal.com/santosh-marar/15-min-meeting"
             target="_blank"
