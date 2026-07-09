@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const SocialSection = () => {
   return (
-    <div className="pt-2 font-medium text-muted-foreground px-2">
+    <div className="font-medium text-muted-foreground pt-4">
       <p>
         {" "}
         You can find me on{" "}
