@@ -30,10 +30,7 @@ const HeroSection = () => {
           who builds software that solves real problems. I take products from
           imagination to real-world users, turning simple ideas into reliable
           platforms with{" "}
-          <Link
-            href="/skills"
-            className="font-semibold text-primary underline decoration-transparent underline-offset-4 decoration-2 transition-all duration-200 hover:decoration-primary"
-          >
+          <Link href="/skills" className="link text-primary">
             my toolkit
           </Link>{" "}
           and expertise.
