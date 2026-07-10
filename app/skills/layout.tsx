@@ -8,9 +8,11 @@ export default function ProjectsLayout({
 }) {
   return (
     <div className="grid min-h-screen max-w-2xl grid-rows-[1fr_auto] mx-auto pt-6 md:pt-8">
-      <ProjectHeader />
-      <main>{children}</main>
-      <FooterSection/>
+      <div>
+        <ProjectHeader />
+        <main>{children}</main>
+      </div>
+      <FooterSection />
     </div>
   );
 }

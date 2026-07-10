@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="flex justify-between items-center">
           <div>
             <p className="font-mono text-xs text-muted-foreground">
-              hello world its,
+              Hello world! I'm
             </p>
             <p>
               <span className="text-2xl font-bold">Santosh Marar</span>
