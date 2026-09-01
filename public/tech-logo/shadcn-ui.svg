@@ -1,8 +1,31 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg
+  fill="none"
+  height="512"
+  viewBox="0 0 512 512"
+  width="512"
+  xmlns="http://www.w3.org/2000/svg"
+>
   <g id="shadcn-ui-default-light">
     <g id="symbol">
-      <svg x="71" y="71" width="370" height="370" viewBox="0 0 256 256" preserveAspectRatio="xMidYMid meet" fill="#111820" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <path fill="none" d="M0 0h256v256H0z"/><path fill="none" stroke="#111820" stroke-width="25" stroke-linecap="round" d="M208 128l-80 80M192 40L40 192"/>
+      <svg
+        fill="#111820"
+        height="370"
+        preserveAspectRatio="xMidYMid meet"
+        viewBox="0 0 256 256"
+        width="370"
+        x="71"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        y="71"
+      >
+        <path d="M0 0h256v256H0z" fill="none" />
+        <path
+          d="M208 128l-80 80M192 40L40 192"
+          fill="none"
+          stroke="#111820"
+          stroke-linecap="round"
+          stroke-width="25"
+        />
       </svg>
     </g>
   </g>

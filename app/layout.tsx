@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { ThemeProviders } from "@/components/theme-provider";
 import { cn } from "@/lib/utils";
-import { Analytics } from "@vercel/analytics/next";
 
 const plus_jakarta_sans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -11,14 +11,14 @@ const plus_jakarta_sans = Plus_Jakarta_Sans({
 });
 
 const jetBrainsMono = JetBrains_Mono({
-  variable: "--font-mono",
   subsets: ["latin"],
+  variable: "--font-mono",
 });
 
 export const metadata: Metadata = {
-  title: "Santosh Marar",
   description:
     "I'm a Full Stack Engineer who builds scalable web applications and ai agents",
+  title: "Santosh Marar",
 };
 
 export default function RootLayout({
@@ -28,14 +28,14 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      suppressHydrationWarning
       className={cn(
         jetBrainsMono.variable,
         "font-sans",
         "overflow-y-scroll",
-        plus_jakarta_sans.variable,
+        plus_jakarta_sans.variable
       )}
+      lang="en"
+      suppressHydrationWarning
     >
       <body
         className={`${plus_jakarta_sans.variable} ${jetBrainsMono.variable} antialiased`}

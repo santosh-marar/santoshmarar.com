@@ -13,18 +13,18 @@ function ThemeSwitcher() {
 
   return (
     <Button
-      variant="outline"
-      size="icon"
-      onClick={toggleTheme}
       className="group"
+      onClick={toggleTheme}
+      size="icon"
+      variant="outline"
     >
       <SunIcon
+        className="absolute size-4 rotate-0 scale-100 text-muted-foreground transition-all duration-500 group-hover:text-primary dark:rotate-45 dark:scale-0"
         weight="bold"
-        className="absolute size-4 scale-100 rotate-0 transition-all duration-500 text-muted-foreground group-hover:text-primary dark:scale-0 dark:rotate-45"
       />
       <MoonIcon
+        className="absolute size-4 rotate-45 scale-0 text-muted-foreground transition-all duration-500 group-hover:text-primary dark:rotate-0 dark:scale-100"
         weight="bold"
-        className="absolute size-4 scale-0 rotate-45 transition-all duration-500 text-muted-foreground group-hover:text-primary dark:scale-100 dark:rotate-0"
       />
     </Button>
   );

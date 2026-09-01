@@ -1,12 +1,12 @@
 "use client";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Enops() {
   return (
     <div className="mt-4 px-2">
-      <h3 className="text-xl font-semibold">
-        <a href="https://enops.dev" target="_blank" rel="noopener noreferrer">
+      <h3 className="font-semibold text-xl">
+        <a href="https://enops.dev" rel="noopener noreferrer" target="_blank">
           Enops.dev
         </a>
       </h3>
@@ -15,35 +15,35 @@ export default function Enops() {
             2025 <span>.</span> Typescript, Nextjs, Bun, Hono,PotgresSQL,
             Better-Auth,Dodo Payment, Vercel AI SDK, Vercel AI Gateway{" "}
           </p>*/}
-        <p className="text-muted-foreground text-sm font-medium">
+        <p className="font-medium text-muted-foreground text-sm">
           Generate, visualize, and export db schemas to Typescript ORM, SQL.
         </p>
         <div className="mt-2 space-x-2">
-          <Button variant="secondary" size="default">
+          <Button size="default" variant="secondary">
             <a
               href="https://enops.dev"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
               Try Now
             </a>
           </Button>
 
-          <Button variant="secondary" size="default">
+          <Button size="default" variant="secondary">
             <a
               href="https://github.com/santosh-marar/enops-community"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
               GitHub
             </a>
           </Button>
 
-          <Button variant="outline" size="default" disabled>
+          <Button disabled size="default" variant="outline">
             <a
               href="https://enops.dev"
-              target="_blank"
               rel="noopener noreferrer"
+              target="_blank"
             >
               Case Study
             </a>
@@ -52,12 +52,12 @@ export default function Enops() {
       </div>
       <div>
         <Image
-          src="/enops.png"
           alt="enops.dev logo"
-          loading="eager"
-          width={1200} // intrinsic width
+          className="mt-4 h-auto w-full rounded border border-muted"
           height={180} // intrinsic height
-          className="h-auto w-full mt-4 border border-muted rounded"
+          loading="eager"
+          src="/enops.png"
+          width={1200} // intrinsic width
         />
       </div>
       <div className="mt-4">
@@ -65,16 +65,16 @@ export default function Enops() {
             A AI native SASS for generating, visualizing, and exporting db
             schemas to Typescript ORM, SQL.
           </p>*/}
-        <h4 className="text-lg font-semibold pt-2">Overview</h4>
-        <p className="text-muted-foreground text-base font-medium">
+        <h4 className="pt-2 font-semibold text-lg">Overview</h4>
+        <p className="font-medium text-base text-muted-foreground">
           Enops.dev is an AI-powered database design platform that enables
           developers to generate, visualize, edit, and export production-ready
           database schemas from a single workspace.
         </p>
 
         <div className="mt-4">
-          <h4 className="text-lg font-semibold pt-2">Tech Stack</h4>
-          <p className="text-muted-foreground text-base font-medium">
+          <h4 className="pt-2 font-semibold text-lg">Tech Stack</h4>
+          <p className="font-medium text-base text-muted-foreground">
             Typescript, Nextjs, Bun, Hono, PotgresSQL, Drizzle ORM, Schdn/UI,
             Tailwind CSS, Better-Auth, Dodo Payment, Vercel AI SDK, Vercel AI
             Gateway
@@ -82,9 +82,9 @@ export default function Enops() {
         </div>
 
         <div className="mt-4">
-          <h4 className="pt-2 text-lg font-semibold">Features</h4>
+          <h4 className="pt-2 font-semibold text-lg">Features</h4>
 
-          <ul className="text-muted-foreground mt-1 list-disc space-y-1 pl-5 text-base font-medium">
+          <ul className="mt-1 list-disc space-y-1 pl-5 font-medium text-base text-muted-foreground">
             <li>AI-powered database schema generation</li>
             <li>DBML editor with visual ERD</li>
             <li>Production-ready exports for Prisma, Drizzle, SQL, and DBML</li>

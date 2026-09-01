@@ -7,7 +7,7 @@ export default function ProjectsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="grid min-h-screen max-w-2xl grid-rows-[1fr_auto] mx-auto pt-6 md:pt-8">
+    <div className="mx-auto grid min-h-screen max-w-2xl grid-rows-[1fr_auto] pt-6 md:pt-8">
       <div>
         <ProjectHeader />
         <main>{children}</main>
