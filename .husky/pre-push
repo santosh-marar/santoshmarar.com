@@ -1,0 +1,10 @@
+echo 🔍 Checking lockfile before push...
+pnpm install --frozen-lockfile
+
+if [ 0 -ne 0 ]; then
+  echo ❌ Error: pnpm-lock.yaml is out of sync
+  echo Run pnpm install to update the lockfile
+  exit 1
+fi
+
+echo ✅ Lockfile is valid
