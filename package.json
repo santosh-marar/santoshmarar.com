@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
     "prepare": "husky install && chmod +x .husky/_/*"
   },
   "dependencies": {
@@ -30,8 +29,6 @@
     "@types/node": "^26.1.2",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
-    "eslint": "^10.8.0",
-    "eslint-config-next": "16.3.0",
     "husky": "^9.1.7",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2"
