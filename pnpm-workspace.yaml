@@ -1,2 +1,13 @@
 allowBuilds:
+  pnpm: true
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - '@pnpm/exe.darwin-arm64@12.2.1'
+  - '@pnpm/exe.darwin-x64@12.2.1'
+  - '@pnpm/exe.linux-arm64-musl@12.2.1'
+  - '@pnpm/exe.linux-arm64@12.2.1'
+  - '@pnpm/exe.linux-x64-musl@12.2.1'
+  - '@pnpm/exe.linux-x64@12.2.1'
+  - '@pnpm/exe.win32-arm64@12.2.1'
+  - '@pnpm/exe.win32-x64@12.2.1'
+  - pnpm@12.2.1
