@@ -1,5 +1,4 @@
 allowBuilds:
-  pnpm: true
   unrs-resolver: true
 minimumReleaseAgeExclude:
   - '@pnpm/exe.darwin-arm64@12.2.1'
