@@ -10,9 +10,14 @@
     "build": "next build",
     "check": "ultracite check",
     "dev": "next dev",
-    "fix": "ultracite fix",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
     "prepare": "husky",
     "start": "next start"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,tsx,jsx}": "biome check --write --no-errors-on-unmatched",
+    "**/*.{json,css,md}": "biome format --write"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
