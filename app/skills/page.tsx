@@ -154,7 +154,7 @@ function TechnologyBadgeList({ technologies }: { technologies: Technology[] }) {
 }
 
 const Skills = () => (
-  <div className="mt-4 px-2">
+  <div>
     <h3 className="font-semibold text-xl">Skills & Toolkit</h3>
     <p className="mt-1 font-medium text-muted-foreground text-sm">
       The technologies and tools I use to turn ideas into reliable software.

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Enops() {
   return (
-    <div className="mt-4 px-2">
+    <div>
       <h3 className="font-semibold text-xl">
         <a href="https://enops.dev" rel="noopener noreferrer" target="_blank">
           Enops.dev

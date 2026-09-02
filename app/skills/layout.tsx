@@ -1,5 +1,5 @@
+import BackButton from "@/components/back-button";
 import FooterSection from "@/components/footer-section";
-import ProjectHeader from "@/components/project-header";
 
 export default function ProjectsLayout({
   children,
@@ -7,12 +7,15 @@ export default function ProjectsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="mx-auto grid min-h-screen max-w-2xl grid-rows-[1fr_auto] pt-6 md:pt-8">
-      <div>
-        <ProjectHeader />
+    <div className="relative mx-auto flex max-w-3xl flex-col space-y-2 px-4 pt-6 sm:px-8 md:pt-8">
+      {/* Mobile */}
+      <BackButton className="-ml-1.5 xs:hidden" />
+
+      <BackButton className="fixed left-[max(1rem,calc(50%-24rem))] mt-3 xs:block hidden md:mt-4" />
+      <div className="xs:ml-12 max-w-2xl">
         <main>{children}</main>
+        <FooterSection />
       </div>
-      <FooterSection />
     </div>
   );
 }
